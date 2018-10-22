@@ -7,8 +7,15 @@ GitHub: https://github.com/i-shubhamprakash
 html,
 body {
     margin: 0;
+    max-width: 100vw;
 }
 
+
+/* Theme color of the website */
+nav,
+.page-footer {
+    background: #ab47bc;
+}
 
 /* Contact page */
 #contact-page-body {
