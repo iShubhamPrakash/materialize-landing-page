@@ -13,7 +13,8 @@ body {
 
 /* Theme color of the website */
 nav,
-.page-footer {
+.page-footer,
+.btn {
     background: #ab47bc;
 }
 
