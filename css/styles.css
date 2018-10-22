@@ -35,7 +35,8 @@ nav,
     display:none;
     -webkit-border-radius:60px;
     -moz-border-radius:60px;
-    border-radius:60px
+    border-radius:60px;
+    z-index: 500;
 }
 #scroll span {
     position:absolute;
@@ -47,6 +48,7 @@ nav,
     width:0;
     border:8px solid transparent;
     border-bottom-color:#ffffff;
+    z-index: 500;
 }
 #scroll:hover {
     background-color:#e74c3c;
