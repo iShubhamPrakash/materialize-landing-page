@@ -9,6 +9,12 @@ body {
     margin: 0;
 }
 
+
+/* Contact page */
+#contact-page-body {
+    background-color:#F5F5F5;
+}
+
 /* Back to top button */
 #scroll {
     position:fixed;
