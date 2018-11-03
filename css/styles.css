@@ -26,27 +26,45 @@ h1 {
     font-size: 3.5rem;
     color: #00838f;
     text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 img {
     max-width: 100%;
 }
 
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
+/******************INDEX PAGE*********************/
 
+.row1{
+    background: #000000;
+    color:white;
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
 
+#main-head-blue{
+    color:white !important;
+    background-color: #00838f;
+    padding: 0 0.2em;
+    line-height: 1.5;
+}
 
+.row1 h1{
 
+}
 
+.row1 p{
 
-/* Card */
-
-
+}
 
 /* Contact Page */
 
 #contact-page-body {
-    background-color: rgba(10, 205, 219, 0.137);
+    background-color: rgba(0, 0, 0, 0.137);
     background-image: url(/resources/background/bg-graphic_teal.svg);
     background-position: right;
     background-repeat: repeat-y;
