@@ -42,24 +42,25 @@ p{
 .row1{
     background: #000000;
     color:white;
-    padding-top: 4em !important;
+    padding-top: 2em !important;
     padding-bottom: 4em !important;
 }
 
 #main-head-blue{
-    color:white !important;
+    color:rgb(239, 241, 241) !important;
     background-color: #00838f;
-    padding: 0 0.2em;
+    padding: 0 0.1em;
     line-height: 1.5;
 }
 
-.row1 h1{
-
+#home-top-image{
+margin-top:4em;
 }
 
-.row1 p{
-
+.row1{
+    color:rgb(174, 180, 182);
 }
+
 
 /* Contact Page */
 
