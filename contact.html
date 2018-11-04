@@ -20,6 +20,8 @@ GitHub: https://github.com/i-shubhamprakash
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Import AOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Custom css stylesheet -->
     <link rel="stylesheet" type="text/css" media="screen" href="/css/styles.css" />
 </head>
@@ -55,8 +57,8 @@ GitHub: https://github.com/i-shubhamprakash
         <div class="container" id="contact-container">
             <div class="container" id="contact">
                 <div class="row center">
-                    <h1>CONTACT US</h1>
-                    <p class="flow-text">
+                    <h1 data-aos="zoom-out-up">CONTACT US</h1>
+                    <p class="flow-text" data-aos="zoom-in-left">
                         Feeling stuck? At a crossroads in your career or emotional life? Even the strongest among us
                         can feel lost, unsure, ambivalent, or unhappy at times. As a Counselling Professional, I can
                         help you understand and manage whatever life throws at you, and how to do it successfully. I
@@ -64,9 +66,10 @@ GitHub: https://github.com/i-shubhamprakash
                     </p>
                 </div>
                 <div class="row">
-                    <form class="col s12 card" style="padding-right:1.6em">
+                    <form class="col s12 card" style="padding-right:1.6em" data-aos="fade-up"
+                    data-aos-duration="3000">
                         <div class="row center">
-                            <h3>SCHEDULE A SESSION</h3>
+                            <h3 data-aos="zoom-out-up">SCHEDULE A SESSION</h3>
                             <div class="input-field col s12">
                                 <i class="material-icons prefix">account_circle</i>
                                 <input id="icon_name" type="text" class="validate" name="name">
@@ -150,6 +153,11 @@ GitHub: https://github.com/i-shubhamprakash
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript for Materialize-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- AOS Script link -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- Custom javascript script -->
     <script src="/scripts/script.js"></script>
 </body>
