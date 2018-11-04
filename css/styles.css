@@ -66,6 +66,11 @@ p {
     background: #00c6d8;
     padding-top: 2em;
     padding-bottom: 2em;
+    margin-bottom: 0;
+    background-image: url(/resources/background/footer-cta.svg), url(/resources/background/footer-cta-flipped.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+    background-position-y: top,bottom;
 }
 
 .row2 img {
@@ -74,8 +79,43 @@ p {
 
 .row2 h1 {
     color: #fff;
-    padding-bottom: 0.8em;
+    padding-bottom: 0.48em;
 }
+
+.row3{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+    background: #000;
+    margin-top:0;
+
+    background-image: url(/resources/background/bg-graphic_teal-left.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-y: bottom;
+}
+
+.row3 .card-title{
+    color:#00838f !important;
+    text-align: center;
+}
+
+.row3 p{
+    font-size: 1.3em;
+}
+
+.row3 .card-content{
+background-color: rgb(226, 226, 226);
+}
+
+.row3 .card-reveal{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(176,232,237,1) 100%);
+}
+
+
+
+
 
 /* Contact Page */
 
@@ -163,6 +203,7 @@ p {
         font-size: 1.5em;
         text-align: center;
     }
+
 }
 
 /* For medium size screens */
